@@ -1,0 +1,21 @@
+.menu a, .menu a:link, .menu a:active, .menu a:visited { color: #333333; text-decoration: none; transition: 0.5s ease all; display: inline-block; border-radius: 8px; padding: 10px 14px; font-size: 18px; font-weight: 500; margin-left: 8px; }
+.menu a:hover { color: #000; text-decoration: none; transition: 0.5s ease all; background-color: var(--warm-steel); }
+.menu a:first-of-type { margin-left: 0; }
+.menu a i { margin-right: 4px; }
+.menu .selected a, .menu .selected a:link, .menu .selected a:active, .menu .selected a:visited { color: var(--text-light); background-color: var(--rust-accent); }
+.menu .selected a:hover { color: var(--text-dark); background-color: var(--muted-clay); }
+footer .menu a, footer .menu a:link, footer .menu a:active, footer .menu a:visited { color: var(--text-dark); text-decoration: none; display: block; width: fit-content; margin-bottom: 4px; font-size: 15px; font-weight: 500; }
+footer .menu a:hover { color: var(--text-dark); text-decoration: underline; }
+footer .menu a:last-of-type { margin-bottom: 0; }
+.bottom-menu a, .bottom-menu a:link, .bottom-menu a:active,.bottom-menu a:visited { color: var(--text-dark); text-decoration: none; font-weight: 600; margin-left: 14px; }
+.bottom-menu a:hover { color: var(--text-dark); text-decoration: underline; }
+.bottom-menu a:first-of-type { margin-left: 0; }
+.extra-menu a, .extra-menu a:link, .extra-menu a:active, .extra-menu a:visited { color: var(--text-dark); text-decoration: none; margin-left: 14px; }
+.extra-menu a:hover { color: var(--text-dark); text-decoration: underline; }
+.extra-menu a:first-of-type { margin-left: 0; }
+.back-to-top a, .back-to-top a:link, .back-to-top a:active, .back-to-top a:visited { color: var(--text-dark); text-decoration: none; transition: 0.5s ease all; border-radius: 8px; position: fixed; right: 40px; bottom: 40px; z-index: 100; display: inline-block; padding: 10px 14px; font-size: 15px; background-color: var(--white); border: 1px solid #000; }
+.back-to-top a:hover { color: var(--text-dark); text-decoration: none; transition: 0.5s ease all; background-color: var(--muted-clay); }
+.back-to-top a i { margin-right: 4px; }
+.section-link a, .section-link a:link, .section-link a:active, .section-link a:visited { color: #003366; text-decoration: none; transition: 0.5s ease all; font-size: 28px; font-weight: 800; margin-top: 20px; display: block; width: fit-content; }
+.section-link a:hover { color: #005CB2; text-decoration: none; transition: 0.5s ease all; }
+.section-link a:first-of-type { margin-top: 0; }

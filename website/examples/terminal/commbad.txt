@@ -1,0 +1,9 @@
+$ fstar CommutativeBad.fst
+* Error 19 at CommutativeBad.fst(16,2-16,4):
+  - Could not prove post-condition
+  - The SMT solver could not prove the query. Use --query_stats for more
+    details.
+  - See also CommutativeBad.fst(12,12-12,24)
+
+Verified module: CommutativeBad
+1 error was reported (see above)

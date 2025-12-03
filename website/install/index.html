@@ -40,31 +40,58 @@
                         <div class="grid title-body">
                             <div class="text-big-dark">Installing F*</div>
                             <div class="text-medium-dark">
-                                Get F* up and running on your system with the tools and instructions below. First, explore the available translators to see which one fits your environment, then follow the installation instructions to set everything up correctly.<br><br>
+                                Get F* up and running on your system with the tools and instructions below.<br><br>
                                 <span class="section-link">
-                                    <a href="#translators" class="scroll-link">Translators</a>
                                     <a href="#installation" class="scroll-link">Installation Instructions</a>
+                                    <a href="#dsls" class="scroll-link">DSLs Embedded in F*</a>
                                 </span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="section-white" id="translators">
-                    <div class="wrapper">
-                        <div class="grid title-body">
-                            <div class="text-big-dark">Translators</div>
-                            <div class="text-medium-dark">
-                                This is where translators for F* will live.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-sand" id="installation">
+                <div class="section-white" id="installation">
                     <div class="wrapper">
                         <div class="grid title-body">
                             <div class="text-big-dark">Installation Instructions</div>
                             <div class="text-medium-dark">
-                                Installation instructions for F* will live here.
+                                There are binaries available for Windows, Arm64, and Linux on the F* Github Page <br><br>
+                                <a href="https://github.com/fstarlang/fstar/releases">F* Github</a> <br><br>
+                                <ul>
+                                    <li>Download the binary for your system.</li><br>
+                                    <li>Add the path for fstar and Z3 to your path </li><br>
+                                    <li>Now you should be able to verify F* files</li><br>
+                                </ul>
+                                
+                                The binary allows for verification. If you want to contribute to the project or
+                                bootstrap/compile F* using Ocaml, follow the detailed steps listed here: <br>
+                                <a href="https://github.com/FStarLang/FStar/blob/master/INSTALL.md">Install F* and Ocaml/OPAM</a> <br><br>
+
+                                Dependencies:
+                                    <ul>
+                                        <li>Ocaml/OPAM</li>
+                                        <li>Z3 version 4.8.5</li>
+                                        <li>Z3 version 4.13.3</li>
+                                    </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-sand" id="dsls">
+                    <div class="wrapper">
+                        <div class="grid title-body">
+                            <div class="text-big-dark">Domain Specific Languages in F*</div>
+                            <div class="text-medium-dark">
+                                <ul>
+                                    <li>Low* - KaReMel generates C code</li> <br>
+                                    <li>EverParse - low level binary formats</li> <br>
+                                    <li>Pulse - Concurrency in F*</li> <br>
+                                    <li>Vale - Cryptographic primitives in assembly </li> <br>
+                                    <li>Steel - shallow concurrency</li> <br>
+                                </ul>
+
+                                Project Everest uses these embeddings widely and has additional information here: <br>
+                                <a href="https://project-everest.github.io/">Project Everest</a>
                             </div>
                         </div>
                     </div>

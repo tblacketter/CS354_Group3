@@ -10,9 +10,12 @@
         <link rel="stylesheet" href="../css/common.css">
         <link rel="stylesheet" href="../css/hyperlinks.css">
         <link rel="stylesheet" href="../css/forms.css">
+        <link href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.css" rel="stylesheet"/>
         <script src="../js/jquery.js"></script>
         <script src="../js/jquery-ui.min.js"></script>
         <script src="../js/f.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-ocaml.min.js"></script>
     </head>
     <body>
         <span class="back-to-top" id="top-span"><a href="javascript:void(0)" data-span="top-span" onclick="scrollToTop(this);"><i class="fa-solid fa-angle-up"></i>Back to top</a></span>
@@ -54,17 +57,44 @@
                         <div class="grid title-body">
                             <div class="text-big-dark">Inductory Examples</div>
                             <div class="text-medium-dark">
-                                Inductory examples of F* with build/run instructions will live here.
+                                 
+                                <div>
+                                    Example 1
+                                    <pre><code id="comm" class="language-ocaml"></code></pre>
+                                    Output:
+                                    <pre><code id="comm-terminal" class="language-bash"></code></pre>
+                                </div> <br>
+
+                                <div>
+                                    Bad Example
+                                    <pre><code id="commbad" class="language-ocaml"></code></pre>
+                                    Output:
+                                    <pre><code id="commbad-terminal" class="language-bash"></code></pre>
+                                </div> <br>
+
+                               
+                                <div>
+                                     Example 2
+                                    <pre><code id="connection" class="language-ocaml"></code></pre>
+                                    Output:
+                                    <pre><code id="connection-terminal" class="language-bash"></code></pre>
+                                </div> <br>
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="section-sand">
+                <div class="section-sand" id="complex">
                     <div class="wrapper">
                         <div class="grid title-body">
                             <div class="text-big-dark">Complex Examples</div>
                             <div class="text-medium-dark">
-                                Complex examples of F* with build/run instructions will live here.
+                                <div>
+                                    Example 1
+                                    <pre><code id="bst" class="language-ocaml"></code></pre>
+                                    Output:
+                                    <pre><code id="bst-terminal" class="language-bash"></code></pre>
+                                </div>
                             </div>
                         </div>
                     </div>

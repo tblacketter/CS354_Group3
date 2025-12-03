@@ -19,3 +19,5 @@ footer .menu a:last-of-type { margin-bottom: 0; }
 .section-link a, .section-link a:link, .section-link a:active, .section-link a:visited { color: #003366; text-decoration: none; transition: 0.5s ease all; font-size: 28px; font-weight: 800; margin-top: 20px; display: block; width: fit-content; }
 .section-link a:hover { color: #005CB2; text-decoration: none; transition: 0.5s ease all; }
 .section-link a:first-of-type { margin-top: 0; }
+a, a:link, a:active, a:visited { color: #003366; text-decoration: none; transition: 0.5s ease all; }
+a:hover { color: #005CB2; text-decoration: none; transition: 0.5s ease all; }
